@@ -18,6 +18,7 @@ nav {
     background-color: burlywood;
     position: sticky;
     top: 0;
+    box-shadow: rgba(0, 0, 0, 0.2) 0px 12px 28px 0px, rgba(0, 0, 0, 0.1) 0px 2px 4px 0px, rgba(255, 255, 255, 0.05) 0px 0px 0px 1px inset;
     
 }
 .navUl {
@@ -77,4 +78,27 @@ a{
 }
 #ciekawostki, #randomowaciekawostka, #oprojekcie{
     padding-top: 3rem;
+}
+label,#toggler{
+    display:none;
+}
+
+/* burgir */
+@media (max-width:768px){
+    .navUl{
+        display:none;
+        position: absolute;
+        right: 0;
+        top:50px;
+        background-color: burlywood;
+        padding: 1rem;
+        box-shadow: rgba(0, 0, 0, 0.2) 0px 12px 28px 0px, rgba(0, 0, 0, 0.1) 0px 2px 4px 0px, rgba(255, 255, 255, 0.05) 0px 0px 0px 1px inset;
+    
+    }
+    label{
+        display: flex;
+    }
+    #toggler:checked ~ .navUl{
+        display:block;
+    }
 }
