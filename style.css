@@ -1,17 +1,18 @@
 body    {
 
     background-color: rgba(233, 224, 103, 0.521);
-
+    margin: 0;
 }
 nav {
-    border: 2px dashed red;
+    /* border: 2px dashed red; */
     display: flex;
     justify-content: space-between;
     align-items: center;
+    padding: 15px 20px;
     
 }
 .navUl {
-    border: 2px dashed blue;
+    /* border: 2px dashed blue; */
     display: flex;
     padding: 2px;
     margin: 2px;
@@ -20,6 +21,19 @@ nav {
 
 }
 .navUl li{
-    border: 2px dashed black;
-   margin: 10px; 
+    /* border: 2px dashed black; */
+   margin-left: 20px; 
+}
+
+
+.bodyHeader {
+
+    border: 2px dashed red;
+    text-align: center;
+    
+
+}
+.bodyHeader img{
+    max-width: 100%;
+
 }
