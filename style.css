@@ -10,6 +10,9 @@ nav {
     justify-content: space-between;
     align-items: center;
     padding: 15px 20px;
+    background-color: burlywood;
+    position: sticky;
+    top: 0;
     
 }
 .navUl {
@@ -55,4 +58,15 @@ main, article{
     padding: 1vh 5vw;
     max-width: 1200px;
     margin:auto;
+}
+footer {
+    background:gray;
+    display:flex;
+    padding:0 2.5vw;
+    color: white;
+    
+}
+a{
+    text-decoration: wavy;
+    color: inherit;
 }
